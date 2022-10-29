@@ -1,0 +1,196 @@
+a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    list-style: none;
+}
+
+.contenedor_nav {
+    display: flex;
+    color: aqua;
+    background-color: lightblue;
+    justify-content: end;
+
+
+}
+
+.contenedor_titulo {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(60, 9, 199, 0.589);
+    color: rgb(186, 199, 157);
+
+
+}
+
+.cajas {
+    border: 1px solid rgb(113, 126, 131);
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+.contenedor_trabajos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.caja2 {
+    border-color: rgba(0, 0, 0, 0.473);
+    margin: 1em;
+    border-color: black;
+    border-style: solid;
+    margin: 6em;
+    margin-bottom: 10em;
+
+
+}
+
+.cajas_muestras {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.lorem {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 100px;
+
+
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.849);
+    font-size: 15px;
+    padding: 2em;
+    color: gray;
+    ;
+
+}
+
+.Items_footer {
+    color: antiquewhite;
+    margin: 10px;
+}
+
+.derechos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 1vw;
+}
+
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.elemento_form {
+    margin: 15px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.contenedor_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.diseños {
+    background-color: rgba(0, 0, 0, 0.267);
+    border: 10px;
+    margin: 3EMpx;
+    width: 30em;
+    height: 20em;
+    text-align: center;
+    padding: 30px;
+
+
+
+}
+
+.contenedor_diseños {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    margin: 3em;
+    padding: 30px;
+
+
+}
+
+.cursos {
+    border: 2em;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.39);
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 255, 0.76);
+    text-align: center;
+    transition-duration: 1s;
+}
+
+.cursos:hover {
+    transform: scale(1.1);
+}
+
+.boton_enviar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul,
+li {
+    list-style: none;
+
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: red
+}
+
+body {
+    background-color: rgb(230, 225, 225);
+}
+
+
+footer {
+    background-color: rgba(23, 100, 8, 0.808);
+}
+.textoAnimadoIndex:hover{
+    transform: scale(1.2);
+    color: blue;
+}
+.textoAnimadoIndex{
+    transition-duration: 2s;
+}
