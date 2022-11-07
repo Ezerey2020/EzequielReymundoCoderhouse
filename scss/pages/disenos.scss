@@ -1,0 +1,24 @@
+
+.diseños {
+    background-color: rgba(0, 0, 0, 0.267);
+    border: 10px;
+    margin: 3EMpx;
+    width: 30em;
+    height: 20em;
+    text-align: center;
+    padding: 30px;
+
+
+
+}
+
+.contenedor_diseños {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    margin: 3em;
+    padding: 30px;
+
+
+}
