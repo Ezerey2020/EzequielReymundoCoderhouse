@@ -51,11 +51,10 @@ footer {
     background-color: rgba(23, 100, 8, 0.808);
 }
 footer {
-    background-color: rgba(0, 0, 0, 0.849);
+    background-color:$color-secundario;
     font-size: 15px;
     padding: 2em;
-    color: gray;
-    ;
+    color: $color-primario;
 
 }
 

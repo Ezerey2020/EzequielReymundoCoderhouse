@@ -49,10 +49,10 @@ footer {
 }
 
 footer {
-  background-color: rgba(0, 0, 0, 0.849);
+  background-color: rgba(0, 0, 0, 0.788);
   font-size: 15px;
   padding: 2em;
-  color: gray;
+  color: rgba(128, 128, 128, 0.87);
 }
 
 .Items_footer {
